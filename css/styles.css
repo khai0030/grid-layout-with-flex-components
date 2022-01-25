@@ -25,3 +25,32 @@ body {
 .icon {
     font-size: 4rem;
     }
+ 
+/* My code starts here */
+.emojis{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 10px;
+    height: 250px;
+    width:820px;
+}
+
+.emoji{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.icon{
+ order: -1;
+ align-self: center;
+}
+
+.emoji p{
+    flex-grow: 1;
+}
+
+.emoji a{
+    margin: 1px;
+}
